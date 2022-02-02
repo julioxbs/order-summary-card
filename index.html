@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.css">
+
+    <style>
+        :root {
+            --clr-pale-blue: hsl(225, 100%, 94%);
+            --clr-bright-blue: hsl(245, 75%, 52%);
+            --clr-very-pale-blue: hsl(225, 100%, 98%);
+            --clr-desaturated-blue: hsl(224, 23%, 55%);
+            --clr-dark-blue: hsl(223, 47%, 23%);
+        }
+
+        html {
+            font-size: 16px;
+        }
+    </style>
+    <title>Order Summary</title>
+</head>
+<body>
+    <div class="content d-flex align-items-center justify-content-center vh-100" style="background-image: url(./images/pattern-background-desktop.svg); background-repeat: no-repeat;">
+        <div class="card pb-3 shadow-sm border-0 align-items-center align-items-center" style="width: 20rem;">
+            <img src="./images/illustration-hero.svg" alt="" class="card-img-top">
+    
+            <div class="card-body p-3 text-center">
+                <h5 class="card-title fw-bold" style="color: var(--clr-dark-blue);">Order Summary</h5>
+    
+                <p class="card-text text-center" style="color: var(--clr-desaturated-blue);">
+                    You can now listen to millions of songs, audiobooks, and podcasts on any device anywhere you like!
+                </p>
+    
+                <div class="plan p-2 bg-light rounded d-flex gap-2 align-items-center">
+                    <img src="./images/icon-music.svg" alt="" class="img-fluid" style="width: 40px;">
+    
+                    <p class="price d-flex flex-column me-4">
+                        <span class="fw-bold" style="color: var(--clr-dark-blue); font-size: 13px;">Annual Plan</span>
+                        <span style="color: var(--clr-desaturated-blue);">$59.99/year</span>
+                    </p>
+    
+                    <a href="#" class="text-end ms-5" style="color: var(--clr-bright-blue);">Change</a>
+                </div>
+    
+                <a href="#" class="btn w-100" style="background-color: var(--clr-bright-blue); color: var(--clr-pale-blue);">Proceed to Payment</a>
+            </div>
+    
+            <a href="#" class="text-decoration-none" style="color: var(--clr-desaturated-blue);">Cancel Order</a>
+        </div>
+    </div>
+</body>
+</html>
